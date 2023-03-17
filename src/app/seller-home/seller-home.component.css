@@ -1,0 +1,31 @@
+.product-list h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table{
+   margin: 10px auto;
+    text-align: center;
+    color: black;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px black solid;
+    padding: 15px;
+    min-height: 160px;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.p-msg{
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+}
+.icon-link{
+    padding-left: 10px;
+}

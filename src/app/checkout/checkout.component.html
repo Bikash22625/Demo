@@ -1,0 +1,29 @@
+<div class="checkout-page">
+    <h1>Checkout</h1>
+    <div class="row">
+        <div class="col-sm-5 shipping-address">
+            <h3>Add Shipping Address</h3>
+            <form #orderData="ngForm" class="order-form" (ngSubmit)="orderNow(orderData.value)">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Enter User Email..." name="email" ngModel>
+                  </mat-form-field>
+                  <mat-form-field appearance="outline">
+                    <mat-label>Address</mat-label>
+                    <input matInput placeholder="Enter User Address..." name="address" ngModel>
+                  </mat-form-field>
+                  <mat-form-field appearance="outline">
+                    <mat-label>Contact</mat-label>
+                    <input matInput placeholder="Enter User Contact..." name="contact" ngModel>
+                  </mat-form-field>
+                  <button class="btn btn-success">Order Now</button>
+
+
+            </form>
+        </div>
+        <div class="col-sm-5 payment-method">
+            <h3>Total Amount : {{totalPrice}}</h3>
+            <h4>Payment Method : <b>Pay on Delivery</b></h4>
+        </div>
+    </div>
+</div>

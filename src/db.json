@@ -1,0 +1,314 @@
+{
+  "seller": [
+    {
+      "name": "Bikash Gupta",
+      "email": "bikash@test.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "Bishal Gupta",
+      "email": "bishal@test.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "Ram Shah",
+      "email": "ram@test.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "Niraj Shah",
+      "email": "niraj@test.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "isTrusted": true,
+      "id": 5
+    },
+    {
+      "name": "Harish",
+      "email": "harish@test.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "name": "Demo",
+      "email": "demo@test.com",
+      "password": "abc123",
+      "id": 7
+    },
+    {
+      "name": "Demo2",
+      "email": "demo2@test.com",
+      "password": "abc123",
+      "id": 8
+    },
+    {
+      "name": "Test",
+      "email": "test@test.com",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "name": "a",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "manish",
+      "email": "manish@test.com",
+      "password": "abc123",
+      "id": 11
+    }
+  ],
+  "products": [
+    {
+      "name": "I Phone 13",
+      "price": "55000",
+      "color": "pink",
+      "category": "I phone",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
+      "id": 1
+    },
+    {
+      "name": "Samsung S32",
+      "price": "125000",
+      "color": "Blue",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
+      "id": 2
+    },
+    {
+      "name": "RealMe 9 Pro",
+      "price": "35000",
+      "color": "grey",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
+      "id": 3
+    },
+    {
+      "name": "Samsung laptop",
+      "price": "125000",
+      "color": "Blue",
+      "category": "Laptop",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://s2.glbimg.com/wi-U6mLL5Nrvg1-byFvAj1pWDis=/0x0:1920x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/z/5/ehcFz2RpqgWAaUQnIcRg/galaxy-book-3-ultra-01-thassius-veloso-techtudo.jpg",
+      "id": 4
+    },
+    {
+      "name": "MI 10",
+      "price": "5500",
+      "color": "Silver",
+      "category": "Moile",
+      "description": "Best Mobile with Best camera",
+      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Dell Inspiron 3000",
+      "price": "72000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Best Gaming & Office use Laptop",
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,1&resMode=sharp2&size=3319,2405&chrss=full&imwidth=5000",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "manish",
+      "email": "manish@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Dell Inspiron 3000",
+      "price": "72000",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "Best Gaming & Office use Laptop",
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,1&resMode=sharp2&size=3319,2405&chrss=full&imwidth=5000",
+      "quantity": 5,
+      "userId": 1,
+      "productId": 6,
+      "id": 2
+    },
+    {
+      "name": "RealMe 9 Pro",
+      "price": "35000",
+      "color": "grey",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "name": "I Phone 13",
+      "price": "55000",
+      "color": "pink",
+      "category": "I phone",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "name": "Samsung S32",
+      "price": "125000",
+      "color": "Blue",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 6
+    },
+    {
+      "name": "MI 10",
+      "price": "5500",
+      "color": "Silver",
+      "category": "Moile",
+      "description": "Best Mobile with Best camera",
+      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 5,
+      "id": 7
+    },
+    {
+      "name": "Samsung laptop",
+      "price": "125000",
+      "color": "Blue",
+      "category": "Laptop",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://s2.glbimg.com/wi-U6mLL5Nrvg1-byFvAj1pWDis=/0x0:1920x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/z/5/ehcFz2RpqgWAaUQnIcRg/galaxy-book-3-ultra-01-thassius-veloso-techtudo.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 4,
+      "id": 8
+    },
+    {
+      "name": "RealMe 9 Pro",
+      "price": "35000",
+      "color": "grey",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
+      "quantity": 5,
+      "productId": 3,
+      "userId": 3,
+      "id": 9
+    },
+    {
+      "name": "RealMe 9 Pro",
+      "price": "35000",
+      "color": "grey",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 3,
+      "id": 10
+    },
+    {
+      "name": "RealMe 9 Pro",
+      "price": "35000",
+      "color": "grey",
+      "category": "Mobile",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 3,
+      "id": 11
+    },
+    {
+      "name": "I Phone 13",
+      "price": "55000",
+      "color": "pink",
+      "category": "I phone",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 1,
+      "id": 12
+    },
+    {
+      "name": "Samsung laptop",
+      "price": "125000",
+      "color": "Blue",
+      "category": "Laptop",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://s2.glbimg.com/wi-U6mLL5Nrvg1-byFvAj1pWDis=/0x0:1920x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/z/5/ehcFz2RpqgWAaUQnIcRg/galaxy-book-3-ultra-01-thassius-veloso-techtudo.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 15
+    },
+    {
+      "name": "I Phone 13",
+      "price": "55000",
+      "color": "pink",
+      "category": "I phone",
+      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
+      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "email": "manish@user.com",
+      "address": "Nodia",
+      "contact": "9888888",
+      "totalPrice": 645600,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "email": "bikash@test.com",
+      "address": "Delhi",
+      "contact": "999999",
+      "totalPrice": 645600,
+      "userId": 3,
+      "id": 2
+    }
+  ]
+}

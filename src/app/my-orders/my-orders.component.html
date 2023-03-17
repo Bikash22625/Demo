@@ -1,0 +1,38 @@
+<div class=" container my-orders">
+    <h1>MyOrders</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <span>Order</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Action</span>
+        </div>
+    </div>
+    <div class="row order-data" *ngFor="let data of orderData">
+        <div class="col-sm-2">
+            <span><img class="order-img" src="https://www.pngfind.com/pngs/m/497-4974489_carts-clipart-buggy-shopping-cart-svg-icon-hd.png" alt=""></span>
+        </div>
+        <div class="col-sm-2">
+            <span>#{{data.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{data.totalPrice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>In Progress</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button class="btn btn-danger">Cancel</button></span>
+        </div>
+    </div>
+</div>
+

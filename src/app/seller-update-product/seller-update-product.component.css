@@ -1,0 +1,24 @@
+.product-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 26px 350px 20px 350px;
+}
+
+.product-container h1{
+    text-align: center;
+    margin: 10px 0 0 10px;
+    font-weight: 600;
+}
+.product-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 100px 20px 100px;
+
+}
+.p-msg{
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+}

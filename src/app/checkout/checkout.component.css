@@ -1,0 +1,25 @@
+.checkout-page{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.checkout-page h1{
+    font-weight: 600;
+}
+.order-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.shipping-address h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.payment-method h3{
+padding-top: 125px;
+}

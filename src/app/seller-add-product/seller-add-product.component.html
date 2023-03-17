@@ -1,0 +1,31 @@
+<div class="product-container">
+    <h1>Add New Product</h1>
+    <p class="p-msg">{{addProductMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="addProducts(addProduct.value)">
+        <mat-form-field appearance="outline">
+            <mat-label>Product Name</mat-label>
+            <input matInput placeholder="Enter Product Name" name="name" ngModel>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Price</mat-label>
+            <input matInput placeholder="Enter Product Price" name="price" ngModel>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Product Color</mat-label>
+            <input matInput placeholder="Enter Product Color" name="color" ngModel>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Category</mat-label>
+            <input matInput placeholder="Enter Product Name" name="category" ngModel>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Product Description</mat-label>
+            <textarea matInput  placeholder="Enter Product Description" name="description" ngModel></textarea>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Product Image</mat-label>
+            <input matInput placeholder="Enter Image Url" name="image" ngModel>
+          </mat-form-field>
+          <button mat-raised-button color="primary">Add Product</button>
+    </form>
+</div>

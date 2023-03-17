@@ -1,0 +1,47 @@
+<div class="seller-container" *ngIf="!showLogin">
+    <h1>Seller Sing-up</h1>
+    <form #sellerSignupForm="ngForm"   class="seller-form" (ngSubmit)="sellerSignup(sellerSignupForm.value)">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter name..." name="name" ngModel>
+          <!--   <mat-error *ngIf="sellerSignupForm.get('name')?.hasError('required')">Name is required</mat-error> -->
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter email..." name="email" ngModel>
+            
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter password" name="password" ngModel>
+          
+          </mat-form-field>
+          <button mat-raised-button color="primary" [disabled]="sellerSignupForm.invalid">Submit</button>
+          <div class="p-signup">
+            <p class="p-text">Already have Account!</p>
+            <a class="a-text" (click)="showLoginPage()">Click for Login</a>
+          </div>
+    </form>
+
+</div>
+<!-- Login -->
+<div class="seller-container" *ngIf="showLogin">
+  <h1 class="login-header">Seller Login</h1>
+  <p class="p-error">{{authError}}</p>
+  <form #sellerSignupForm="ngForm"   class="seller-form" (ngSubmit)="sellerLogin(sellerSignupForm.value)">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput placeholder="Enter email..." name="email" ngModel>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="Enter password" name="password" ngModel>
+        </mat-form-field>
+        <button mat-raised-button color="primary" [disabled]="sellerSignupForm.invalid">Submit</button>
+        <div class="p-signup">
+          <p class="p-text">Donot have Account!</p>
+          <a class="a-text" (click)="showSingupPage()">Click for Sign-up</a>
+        </div>
+  </form>
+
+</div>

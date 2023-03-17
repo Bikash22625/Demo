@@ -1,0 +1,50 @@
+<div class="user-container" *ngIf="!showLogin">
+    <h1>User Sing-up</h1>
+    <p class="e-msg">{{authError}}</p>
+    <form #userSignupForm="ngForm"   class="user-form" (ngSubmit)="userSignup(userSignupForm.value)">
+        <mat-form-field appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter name..." name="name" ngModel>
+          <!--   <mat-error *ngIf="sellerSignupForm.get('name')?.hasError('required')">Name is required</mat-error> -->
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter email..." name="email" ngModel>
+            
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter password" name="password" ngModel>
+          
+          </mat-form-field>
+          <button mat-raised-button color="primary" [disabled]="userSignupForm.invalid">Submit</button>
+          <div class="p-signup">
+            <p class="p-text">Already have Account!</p>
+            <a class="a-text" (click)="showLoginPage()">Click for Login</a>
+          </div>
+    </form>
+
+</div>
+<!-- Login -->
+<div class="user-container" *ngIf="showLogin">
+  <h1 class="login-header">User Login</h1>
+  <p class="p-error">{{authError}}</p>
+  <form #userSignupForm="ngForm"   class="user-form" (ngSubmit)="userLogin(userSignupForm.value)">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput placeholder="Enter email..." name="email" ngModel required email #email="ngModel">
+        </mat-form-field>
+        <p class="error-text"><span *ngIf="email.invalid && email.touched">Please Enter Valid Eamil</span></p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="Enter password" name="password" ngModel minlength="4" maxlength="20" required #password="ngModel">
+        </mat-form-field>
+        <p class="error-text"><span *ngIf="password.invalid && password.touched">Please Enter Valid Password</span></p>
+        <button mat-raised-button color="primary" [disabled]="userSignupForm.invalid">Submit</button>
+        <div class="p-signup">
+          <p class="p-text">Donot have Account!</p>
+          <a class="a-text" (click)="showSingupPage()">Click for Sign-up</a>
+        </div>
+  </form>
+
+</div>
