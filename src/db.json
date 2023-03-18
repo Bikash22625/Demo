@@ -161,114 +161,6 @@
       "id": 2
     },
     {
-      "name": "RealMe 9 Pro",
-      "price": "35000",
-      "color": "grey",
-      "category": "Mobile",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
-      "quantity": 1,
-      "productId": 3,
-      "userId": 3,
-      "id": 4
-    },
-    {
-      "name": "I Phone 13",
-      "price": "55000",
-      "color": "pink",
-      "category": "I phone",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
-      "quantity": 1,
-      "productId": 1,
-      "userId": 3,
-      "id": 5
-    },
-    {
-      "name": "Samsung S32",
-      "price": "125000",
-      "color": "Blue",
-      "category": "Mobile",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 2,
-      "id": 6
-    },
-    {
-      "name": "MI 10",
-      "price": "5500",
-      "color": "Silver",
-      "category": "Moile",
-      "description": "Best Mobile with Best camera",
-      "image": "https://www.sammobile.com/wp-content/uploads/2022/02/Galaxy-S22-S22-Plus-1.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 5,
-      "id": 7
-    },
-    {
-      "name": "Samsung laptop",
-      "price": "125000",
-      "color": "Blue",
-      "category": "Laptop",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://s2.glbimg.com/wi-U6mLL5Nrvg1-byFvAj1pWDis=/0x0:1920x1080/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/z/5/ehcFz2RpqgWAaUQnIcRg/galaxy-book-3-ultra-01-thassius-veloso-techtudo.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 4,
-      "id": 8
-    },
-    {
-      "name": "RealMe 9 Pro",
-      "price": "35000",
-      "color": "grey",
-      "category": "Mobile",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
-      "quantity": 5,
-      "productId": 3,
-      "userId": 3,
-      "id": 9
-    },
-    {
-      "name": "RealMe 9 Pro",
-      "price": "35000",
-      "color": "grey",
-      "category": "Mobile",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 3,
-      "id": 10
-    },
-    {
-      "name": "RealMe 9 Pro",
-      "price": "35000",
-      "color": "grey",
-      "category": "Mobile",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://cdndailyexcelsior.b-cdn.net/wp-content/uploads/2021/07/Realme_1260x960.jpg",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 3,
-      "id": 11
-    },
-    {
-      "name": "I Phone 13",
-      "price": "55000",
-      "color": "pink",
-      "category": "I phone",
-      "description": "The ultimate iPhone. From $999. Buy · Learn more · View in AR. 6.7″ or 6.1″. Super Retina XDR display.",
-      "image": "https://techrushi.com/wp-content/uploads/2022/12/iPhone-14-Pro-Max-wallpaper-4K.webp",
-      "quantity": 1,
-      "userId": 3,
-      "productId": 1,
-      "id": 12
-    },
-    {
       "name": "Samsung laptop",
       "price": "125000",
       "color": "Blue",
@@ -295,20 +187,28 @@
   ],
   "orders": [
     {
-      "email": "manish@user.com",
-      "address": "Nodia",
-      "contact": "9888888",
+      "email": "harish@test.com",
+      "address": "Mumbai",
+      "contact": "888888",
       "totalPrice": 645600,
       "userId": 3,
-      "id": 1
+      "id": 3
+    },
+    {
+      "email": "manish@test.com",
+      "address": "Mumbai",
+      "contact": "99988",
+      "totalPrice": 197100,
+      "userId": 3,
+      "id": 4
     },
     {
       "email": "bikash@test.com",
-      "address": "Delhi",
-      "contact": "999999",
-      "totalPrice": 645600,
+      "address": "kolkata",
+      "contact": "88558855",
+      "totalPrice": 5600,
       "userId": 3,
-      "id": 2
+      "id": 5
     }
   ]
 }

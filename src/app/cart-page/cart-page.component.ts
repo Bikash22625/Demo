@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 export class CartPageComponent {
 
 cartData:cart[]|undefined
+cartDataCount:boolean=false
 priceSummary:priceSummary={
   price:0,
   tax:0,
@@ -22,10 +23,27 @@ priceSummary:priceSummary={
 
   }
   ngOnInit():void{
+    this.getCartPageDataList();
+  }
+
+  checkout(){
+    this.router.navigate(['/checkout'])
+  }
+  removeTocart(cartId:number|undefined){
+   cartId && this.cartData && this.productService.deleteCartItem(cartId);
+   this.getCartPageDataList();
+
+  }
+
+  getCartPageDataList(){
     this.productService.cartPageData().subscribe((result)=>{
       console.log("cart page",result);
-      if(result){
-        this.cartData=result
+      if(!result.length){
+        this.cartDataCount=true;
+      }
+      if(result && result.length){
+        this.cartData=result;
+        this.cartDataCount=false;
         let price=0;
         result.forEach((item)=>{
           if(item.quantity)
@@ -39,10 +57,6 @@ priceSummary:priceSummary={
       }
      
     })
-  }
-
-  checkout(){
-    this.router.navigate(['/checkout'])
   }
   
 }

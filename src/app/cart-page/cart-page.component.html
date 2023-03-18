@@ -1,6 +1,12 @@
 <div class="cart-page">
     <h1>Cart Page</h1>
-    <div class="row">
+    <div class="row" *ngIf="cartDataCount">
+        <div class="col-sm-12 details">
+            <h1>No items in the cart, Please Add the Items</h1>
+        </div>
+    </div>
+    
+    <div class="row" *ngIf="!cartDataCount">
         <div class="col-sm-7 details">
             <ul *ngFor="let cart of cartData">
                 <li>
@@ -16,13 +22,13 @@
                     <span>Quantity : {{cart.quantity}}</span>
                 </li>
                 <li>
-                    <button class="btn btn-primary">Remove to Cart</button>
+                    <button class="btn btn-primary" (click)="removeTocart(cart.id)">Remove to Cart</button>
                 </li>
 
             </ul>
           
         </div>
-        <div class="col-sm-4 summary">
+        <div class="col-sm-4 summary" *ngIf="!cartDataCount">
             <h3>Price Summary</h3>
             <ul>
                 <li><span>Amount</span><span>{{priceSummary.price}}</span></li>
@@ -37,4 +43,5 @@
             </ul>
         </div>
     </div>
+
 </div>

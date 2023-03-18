@@ -12,7 +12,8 @@ export class CheckoutComponent {
 
   totalPrice:undefined|number
   cartData:cart[]|undefined
-
+  orderMsg:string|undefined
+  
   constructor(private productService:ProductService,private router:Router){
 
   }
@@ -44,12 +45,21 @@ export class CheckoutComponent {
       userId,
       id:undefined
       }
+
+      this.cartData?.forEach((item)=>{
+        setTimeout(() => {
+         item.id && this.productService.deleteCartItem(item.id)
+        }, 400);
+      
+      })
       this.productService.orderNow(orderData).subscribe((result)=>{
         if(result){
-         this.cartData?.forEach((item)=>{
-          
-         })
-          this.router.navigate(['/my-orders'])
+          this.orderMsg="Your order has been placed."
+          setTimeout(() => {
+            this.router.navigate(['/my-orders']);
+            this.orderMsg=undefined
+          }, 2000);
+         
         }
       })
     }
